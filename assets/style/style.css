@@ -69,15 +69,15 @@ footer {
 }
 
 .contact-block > a:hover {
-    transform: scale(1.08); /* Üzərinə gəldikdə düymə böyüyəcək */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Daha güclü kölgə effekti */
-    transition: all 0.3s ease-in-out; /* Keçid effekti */
-  }
-  
-  .contact-whatsapp:hover {
-    background-color: #1ebe5d; /* WhatsApp düyməsi tünd yaşıl olacaq */
-  }
-  
-  .contact-phone:hover {
-    background-color: #005bbf; /* Telefon düyməsi tünd mavi olacaq */
-  }
+  transform: scale(1.08); /* Üzərinə gəldikdə düymə böyüyəcək */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Daha güclü kölgə effekti */
+  transition: all 0.3s ease-in-out; /* Keçid effekti */
+}
+
+.contact-whatsapp:hover {
+  background-color: #1ebe5d; /* WhatsApp düyməsi tünd yaşıl olacaq */
+}
+
+.contact-phone:hover {
+  background-color: #005bbf; /* Telefon düyməsi tünd mavi olacaq */
+}
