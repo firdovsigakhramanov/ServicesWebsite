@@ -66,7 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let allElements = document.querySelectorAll(".translate");
 
   allElements.forEach((element) => {
-    console.log(translations[element.textContent.replace(/\s+/g, " ").trim()]);
     if (translations[element.textContent.replace(/\s+/g, " ").trim()]) {
       element.innerHTML =
         translations[element.textContent.replace(/\s+/g, " ").trim()];
